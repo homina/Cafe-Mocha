@@ -12,6 +12,9 @@
 		A4BE4DFB24E397BB00B23E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BE4DFA24E397BB00B23E64 /* Assets.xcassets */; };
 		A4BE4DFE24E397BB00B23E64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4BE4DFD24E397BB00B23E64 /* Preview Assets.xcassets */; };
 		A4BE4E0124E397BB00B23E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4BE4DFF24E397BB00B23E64 /* Main.storyboard */; };
+		A4FFC48E24E5907300AB6BDB /* murmur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FFC48D24E5907300AB6BDB /* murmur.mp3 */; };
+		A4FFC49124E61B8700AB6BDB /* lunch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FFC48F24E61B8700AB6BDB /* lunch.mp3 */; };
+		A4FFC49224E61B8700AB6BDB /* univ.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A4FFC49024E61B8700AB6BDB /* univ.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		A4BE4E0024E397BB00B23E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4BE4E0224E397BB00B23E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4BE4E0324E397BB00B23E64 /* Cafe_Mocha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cafe_Mocha.entitlements; sourceTree = "<group>"; };
+		A4FFC48D24E5907300AB6BDB /* murmur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = murmur.mp3; sourceTree = "<group>"; };
+		A4FFC48F24E61B8700AB6BDB /* lunch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lunch.mp3; sourceTree = "<group>"; };
+		A4FFC49024E61B8700AB6BDB /* univ.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = univ.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 		A4BE4DF524E397BA00B23E64 /* Cafe Mocha */ = {
 			isa = PBXGroup;
 			children = (
+				A4FFC48C24E5906400AB6BDB /* Sounds */,
 				A4BE4DF624E397BA00B23E64 /* AppDelegate.swift */,
 				A4BE4DF824E397BA00B23E64 /* ContentView.swift */,
 				A4BE4DFA24E397BB00B23E64 /* Assets.xcassets */,
@@ -72,6 +79,16 @@
 				A4BE4DFD24E397BB00B23E64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4FFC48C24E5906400AB6BDB /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A4FFC48D24E5907300AB6BDB /* murmur.mp3 */,
+				A4FFC48F24E61B8700AB6BDB /* lunch.mp3 */,
+				A4FFC49024E61B8700AB6BDB /* univ.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +149,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FFC48E24E5907300AB6BDB /* murmur.mp3 in Resources */,
 				A4BE4E0124E397BB00B23E64 /* Main.storyboard in Resources */,
+				A4FFC49224E61B8700AB6BDB /* univ.mp3 in Resources */,
 				A4BE4DFE24E397BB00B23E64 /* Preview Assets.xcassets in Resources */,
+				A4FFC49124E61B8700AB6BDB /* lunch.mp3 in Resources */,
 				A4BE4DFB24E397BB00B23E64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
